@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, f1_score, accuracy_score, recall_score, roc_curve, auc, precision_score, ConfusionMatrixDisplay
 
-loan_df=pd.read_csv("/Users/SatvikMishra/Desktop/python_proj/Loan Default Prediction - Student Files/data/vehicle_loans_feat.csv",index_col='UNIQUEID')
+loan_df=pd.read_csv("data/vehicle_loans_feat.csv",index_col='UNIQUEID')
 
 category_cols=['MANUFACTURER_ID','STATE_ID','DISBURSAL_MONTH','DISBURSED_CAT','PERFORM_CNS_SCORE_DESCRIPTION','EMPLOYMENT_TYPE']
 loan_df[category_cols]=loan_df[category_cols].astype('category')
