@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
-loan_df=pd.read_csv(r"/Users/SatvikMishra/Desktop/python_proj/Loan Default Prediction - Student Files/data/vehicle_loans_eda_myself.csv")
+loan_df=pd.read_csv(r"data/vehicle_loans_eda_myself.csv")
 
 
 def relational_summary(col):
