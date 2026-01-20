@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-loan_df=pd.read_csv("/Users/SatvikMishra/Desktop/python_proj/Loan Default Prediction - Student Files/data/vehicle_loans_feature_engineered_myself.csv")
+loan_df=pd.read_csv("data/vehicle_loans_feature_engineered_myself.csv")
 print(loan_df.info())
 
 category_col=['MANUFACTURER_ID','STATE_ID','DISBURSAL_MONTH','DISBURSED_CAT','PERFORM_CNS_SCORE_DESCRIPTION','EMPLOYMENT_TYPE']
