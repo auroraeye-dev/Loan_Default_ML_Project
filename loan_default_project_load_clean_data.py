@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-loan_df=pd.read_csv("/Users/SatvikMishra/Desktop/python_proj/Loan Default Prediction - Student Files/data/vehicle_loans.csv",index_col= 'UNIQUEID')
+loan_df=pd.read_csv("data/vehicle_loans.csv",index_col= 'UNIQUEID')
 print(loan_df.head())
 print(loan_df.info())
 print(loan_df.describe())
