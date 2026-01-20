@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-loan_df=pd.read_csv("/Users/SatvikMishra/Desktop/python_proj/Loan Default Prediction - Student Files/data/vehicle_loans_clean_myself.csv",index_col= 'UNIQUEID')
+loan_df=pd.read_csv("data/vehicle_loans_clean_myself.csv",index_col= 'UNIQUEID')
 print(loan_df.info())
 
 print(loan_df.nunique())
